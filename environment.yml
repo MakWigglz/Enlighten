@@ -1,0 +1,11 @@
+name: enlighten
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - flask
+  - sqlite
+  - sqlalchemy
+  - flask-sqlalchemy
+  # ... other dependencies
