@@ -101,7 +101,7 @@ WHEN document is loaded:
     GET pentagram element
     GET subtopics div
     GET content div
-
+ 
     POSITION pentagram points:
         FOR EACH point IN pentagram points:
             CALCULATE x and y based on index
