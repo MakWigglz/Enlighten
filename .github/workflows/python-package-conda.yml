@@ -1,5 +1,5 @@
     - name: Install dependencies
-      run: |
+      run:|
         conda env update --file environment.yml --name enlighten
     - name: Lint with flake8
       run: |
