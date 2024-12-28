@@ -1,11 +1,18 @@
+# Environment for Enlighten web application
+# Production dependencies for core functionality
 name: enlighten
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.10
-  - flask
-  - sqlite
-  - sqlalchemy
-  - flask-sqlalchemy
+  - flask=2.3.3
+  - sqlite=3.41.2
+  - sqlalchemy=2.0.20
+  - flask-sqlalchemy=3.0.5
+  - pip
+  - pip:
+    - pytest
+    - flake8
+    - black
   # ... other dependencies

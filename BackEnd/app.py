@@ -1,8 +1,7 @@
-from flask import Flask, render_template, jsonify
-from models import topics
-from knowledge_handler import get_knowledge
-
-app = Flask(__name__)
+from flask import render_template, jsonify
+from . import app
+from .models import topics
+from .knowledge_handler import get_knowledge
 
 @app.route('/')
 def index():
@@ -18,6 +17,3 @@ def get_subtopics(topic):
 def get_content(topic, subtopic):
     content = get_knowledge(topic, subtopic)
     return jsonify({"content": content})
-
-if __name__ == '__main__':
-    app.run(debug=True)
