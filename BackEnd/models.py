@@ -4,9 +4,9 @@ class Topic:
         self.subtopics = subtopics
 
 topics = {
-    "Philosophy": Topic("Philosophy", ["Metaphysics", "Epistemology", "Ethics"]),
-    "Science": Topic("Science", ["Physics", "Biology", "Chemistry"]),
-    "Art": Topic("Art", ["Painting", "Sculpture", "Music"]),
-    "History": Topic("History", ["Ancient", "Medieval", "Modern"]),
-    "Literature": Topic("Literature", ["Poetry", "Prose", "Drama"])
+    "Science": Topic("Science", ["Physics", "Chemistry", "Biology", "Computer Science"]),
+    "Geography": Topic("Geography", ["Physical Geography", "Human Geography", "Cartography", "Climatology"]),
+    "History": Topic("History", ["Ancient Civilizations", "Middle Ages", "Modern Era", "World Wars"]),
+    "Economics": Topic("Economics", ["Microeconomics", "Macroeconomics", "International Economics", "Economic Policy"]),
+    "Astronomy": Topic("Astronomy", ["Solar System", "Stars", "Galaxies", "Cosmology"])
 }

@@ -1,7 +1,7 @@
 from flask import render_template, jsonify
 from . import app
 from .models import topics
-from .knowledge_handler import get_knowledge
+from .knowledge_handler import get_knowledge, get_subtopics, get_all_topics
 
 @app.route('/')
 def index():
