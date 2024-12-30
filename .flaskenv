@@ -1,3 +1,2 @@
 FLASK_APP=BackEnd
 FLASK_ENV=development
-flask run
